@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:neung_video/screens/register.dart';
 
 class Home extends StatefulWidget {
   @override
@@ -21,7 +22,7 @@ class _HomeState extends State<Home> {
 
   Widget showAppName() {
     return Text(
-      "BE12ZEBUB TEST2",
+      "BE12ZEBUB",
       style: TextStyle(
         fontSize: 30.0,
         color: myColor,
@@ -75,7 +76,12 @@ class _HomeState extends State<Home> {
           'signUp',
           style: TextStyle(color: myColor),
         ),
-        onPressed: () {},
+        onPressed: () {
+          //  Create Route With Arrow Back
+          MaterialPageRoute materialPageRoute =
+              MaterialPageRoute(builder: (BuildContext context) => Register());
+          Navigator.of(context).push(materialPageRoute);
+        },
       ),
     );
   }
