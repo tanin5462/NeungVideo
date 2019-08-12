@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "319437753640",
+    "firebase_url": "https://neungflutter.firebaseio.com",
+    "project_id": "neungflutter",
+    "storage_bucket": "neungflutter.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:319437753640:android:54394a09071aad7f",
+        "android_client_info": {
+          "package_name": "english.winner.com.neung_video"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "319437753640-c7padkqa4h58io5oc011v7n076hbiq4r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD-9GVXg9XTjpbG_Hkp7EM0DRjAxzKJPrc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "319437753640-c7padkqa4h58io5oc011v7n076hbiq4r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
