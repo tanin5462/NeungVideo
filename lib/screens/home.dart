@@ -1,5 +1,6 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
+import 'package:neung_video/screens/authen.dart';
 import 'package:neung_video/screens/my_service.dart';
 import 'package:neung_video/screens/register.dart';
 
@@ -78,7 +79,11 @@ class _HomeState extends State<Home> {
             color: Colors.white,
           ),
         ),
-        onPressed: () {},
+        onPressed: () {
+          MaterialPageRoute materialPageRoute =
+              MaterialPageRoute(builder: (BuildContext context) => Authen());
+          Navigator.of(context).push(materialPageRoute);
+        },
       ),
     );
   }
